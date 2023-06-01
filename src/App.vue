@@ -5,8 +5,6 @@
   <main>
     <router-view />
   </main>
-
-
   <div class="modal fade" id="projectModal" tabindex="-1" aria-labelledby="projectModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-xl">
       <div class="modal-content" v-if="project">
@@ -45,7 +43,6 @@ export default {
 :root {
   --main-height: calc(100vh - 32px - 64px);
 }
-
 
 footer {
   display: grid;
